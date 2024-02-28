@@ -1,0 +1,35 @@
+body {
+margin-left: 480px;
+margin-top: 140px;
+background: linear-gradient(320deg, #eb92be, #ffef78);
+background: url(texture.jpg);
+font-family: 'dosis', sans-serif;
+font-display: swap;
+justify-content: center;
+}
+input[type="button"] {
+width: 50px;
+height: 50px;
+font-size: 20px;
+color: rgb(7, 7, 7);
+border-radius: 10px;
+}
+input[type="text"] {
+height: 30px;
+width: 200px;
+border-radius: 10px;
+}
+.box {
+border: 3px solid black;
+border-radius: 16px;
+width: 250px;
+height: 400px;
+margin: 10;
+padding: 10;
+align-items: center;
+text-align: center;
+justify-content: center;
+backdrop-filter: blur(5, 5px);
+-webkit-backdrop-filter: blur(5, 5px);
+background-color: antiquewhite;
+}
